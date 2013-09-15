@@ -61,7 +61,7 @@ WIFI_DRIVER_FW_PATH_STA := "/system/etc/wifi/bcmdhd_sta.bin"
 WIFI_DRIVER_FW_PATH_AP := "/system/etc/wifi/bcmdhd_apsta.bin"
 WIFI_DRIVER_FW_PATH_P2P := "/system/etc/wifi/bcmdhd_p2p.bin"
 WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/dhd/parameters/firmware_path"
-BOARD_HAVE_SAMSUNG_WIF  := true
+BOARD_HAVE_SAMSUNG_WIFI  := true
 BOARD_NO_APSME_ATTR     := true
 
 # Bluetooth
