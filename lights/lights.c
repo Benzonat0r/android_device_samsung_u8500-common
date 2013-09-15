@@ -36,6 +36,7 @@ static pthread_mutex_t g_lock = PTHREAD_MUTEX_INITIALIZER;
 /** Paths to light files **/
 char const *const BACKLIGHT_FILE = "/sys/class/backlight/panel/brightness";
 char const *const BUTTON_FILE = "/sys/class/leds/button-backlight/brightness";
+char const *const NOTIFICATION_FILE = "/sys/class/misc/backlightnotification/notification_led";
 
 /** Write integer to file **/
 static int write_int(char const *path, int value)
